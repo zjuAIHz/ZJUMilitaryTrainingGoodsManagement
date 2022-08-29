@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>lab2-1 超链接的应用</title>
+	<style type="text/CSS">
+		a:link {
+			color:#BB6666;
+			text-decoration:none;
+		}
+		a:hover {
+			color:#22FF22;
+			text-decoration:none;
+		}
+		a:visited {
+			color:#BBAAAA;
+			text-decoration:none;
+		}
+		a:active {
+			color:#AAAAFF;
+			text-decoration:none;
+		}
+	</style>
+</head>
+
+<body>
+	<p><font size = "8"><b><a name="content">目录</a></b></font></p>
+	<ul>
+		<li><a href="#C1">chapter 1</a></li>
+		<li><a href="#C2">chapter 2</a></li>
+		<li><a href="#C3">chapter 3</a></li>
+		<li><a href="#C4">chapter 4</a></li>
+	</ul>
+
+	<br><br>
+	<a name="C1"><font size = "8"><b>Chapter 1</b></font></a>
+	<p>————点击文字进入超链接的演示</p>
+	<p align = "center"><a href="http://course.zju.edu.cn" target="_blank"><font size="4">点我进入学在浙大！</font></a></p>
+
+	<br><br>
+	<a name="C2"><font size = "8"><b>Chapter 2</b></font></a>
+	<p>————点击图片进入超链接的演示</p>
+	<div align="center">
+	<a href="http://course.zju.edu.cn" target="_blank"><img src="http://course.zju.edu.cn/img/user/logo.png" width="930" height="310" alt="学在浙大logo"></a>
+    </div>
+
+	<br><br>
+	<a name="C3"><font size = "8"><b>Chapter 3</b></font></a>
+	<p>————点击文字在当前页面进入超链接的演示</p>
+	<p align = "center"><a href="http://course.zju.edu.cn" target="_top"><font size="4">点我进入学在浙大！</font></a></p>
+
+	<br><br>
+	<a name="C4"><font size = "8"><b>Chapter 4</b></font></a>
+	<p>————这个chapter是用来占位的，以便跳转时锚点在最顶端</p>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<p align = "center"><a href="#content" target="_top"><font size="4">点我回到最顶端</font></a></p>
+</body>
+</html>
